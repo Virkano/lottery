@@ -20,7 +20,8 @@
             height: 320px;
             width: 100%;
             left: 0; top: 50%;
-            margin-top: -160px;
+            transform: translate(0,-50%);
+            /* margin-top: -160px; */
             text-align: center;
             padding: 10px;
             display: none;
@@ -143,6 +144,12 @@
             text-decoration: none;
             color: white;
         }
+        @media screen and (max-width: 500px) {
+        .logo {
+            display: none;
+        }
+    }
+
     </style>
 </head>
 <body>
